@@ -1,0 +1,144 @@
+html { 
+  background: url(images/VO-cinema-in-Barcelona.jpg) no-repeat center center fixed; 
+  background-size: cover;
+}
+
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: helvetica;
+ /* background-color: #ffcccc;*/
+ color: white;
+}
+
+h1 {
+  text-align: center;
+  font-family: helvetica;
+  font-size: 30px;
+}
+
+h3 {
+  text-align: left-center;
+  font-family: helvetica;
+  font-size: 25px;
+}
+
+.nav-bar {
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 50px;
+  border: 2px solid gray;
+  background-color: gray; 
+  font-family: helvetica;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+}
+  
+
+.nav-bar ul li a {
+  color: #66ccff;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px;
+ /* border: 1px solid black;*/
+  /*padding: 2px;*/
+  font-family: helvetica;
+  font-size: 30px
+}
+
+.nav-bar ul li a:hover {
+  font-family: arial;
+  font-size: 30px;
+ /* padding: 5px;*/
+  color: white;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+article {
+  width: 900px;
+  /*text-align: center;*/
+}
+
+.movies {
+  width: 400px;
+  float: left;
+  margin-left: 300px;
+  display: block;
+}
+
+.movies ul li a {
+  text-decoration: none;
+  width: 450px;
+  margin: 25px;
+/*  float: left;*/
+  display: block;
+  color: white;
+  font-family: helvetica;
+  list-style-type: none;
+}
+
+.movies ul li a:hover {
+  font-size: 25px;
+  color: gray;
+}
+
+.lightbox-background {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: rgba(0,0,0,0.5);
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+
+.lightbox-center {
+  text-align: center;
+
+}
+
+img {
+  width: 500px;
+}
+
+.contact-setup article {
+  float: left;
+  width: 400px;
+}
+
+#email {
+  width: 285px;
+  height: 30px;
+  font-size: 15px;
+}
+
+#name {
+  width: 285px;
+  height: 30px;
+  font-size: 15px;
+}
+
+#body {
+  font-size: 15px;
+}
+
+#submit {
+  width: 100px;
+  height: 25px;
+ /* background-color: green;*/
+
+}
+
+footer p {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  margin-left: 400px;
+}
